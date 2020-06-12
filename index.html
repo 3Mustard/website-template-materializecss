@@ -32,8 +32,26 @@
     .tabs .indicator{
       background-color: #673ab7;
     }
-    .tabs .tab a:focus, .tabs .tab a:focus.active{
+    .tabs .tab a:focus, .tabs .tab a:focus.active {
       background: transparent;
+    }
+    .datepicker-date-display {
+      background-color: #81c784;
+    }
+    .datepicker-table td.is-selected {
+      background: #81c784 !important;
+    }
+    .datepicker-cancel, .datepicker-done {
+      color: #81c784;
+    }
+    .is-today {
+      color: #81c784 !important;
+    }
+    input[type="checkbox"]:checked + span:not(.lever)::before {
+      border:2px solid transparent;
+      border-bottom:2px solid #81c784;
+      border-right:2px solid #81c784;
+      background:transparent;
     }
   </style>
 </head>
@@ -176,7 +194,7 @@
             <p>Services required:</p>
             <p>
               <label>
-                <input type="checkbox" class="green lighten-2">
+                <input type="checkbox">
                 <span>Gardening</span>
               </label>
             </p>
