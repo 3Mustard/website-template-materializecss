@@ -1,2 +1,2 @@
 # website-template-materializecss
-clone the repo and open the html file in a browser
+clone or download the files and open the index.html file in a web browser.
